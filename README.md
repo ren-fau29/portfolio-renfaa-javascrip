@@ -35,10 +35,15 @@ Proyek ini menggunakan next/font untuk mengoptimalkan dan memuat Inter, Google F
 ## Dependencies
 ```bash
 - npm install -D tailwindcss
-- npx tailwindcss init
 ```
 ```bash
-
+- npm install framer-motion
+```
+```bash
+- npm install react-icons
+```
+```bash
+- npm install react-countup
 ```
 
 ## Deploy on Vercel
