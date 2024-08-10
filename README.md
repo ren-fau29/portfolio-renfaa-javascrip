@@ -31,10 +31,19 @@ Proyek ini menggunakan next/font untuk mengoptimalkan dan memuat Inter, Google F
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## Requirement
+- Visual Studio Code v1.92.0
+
+- NextJs v20.15.1
+
+- Tailwindcss v3.4.1
 
 ## Dependencies
 ```bash
 - npm install -D tailwindcss
+```
+```bash
+- npx shadcn-ui@latest init
+- shadcn-ui@latest add input button scroll-area select sheet tabs textarea tooltop
 ```
 ```bash
 - npm install framer-motion
