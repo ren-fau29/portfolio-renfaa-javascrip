@@ -30,8 +30,18 @@ Proyek ini menggunakan next/font untuk mengoptimalkan dan memuat Inter, Google F
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
+## Requirement
+
+## Dependencies
+```bash
+- npm install -D tailwindcss
+- npx tailwindcss init```
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Credit
+> RenFaa
