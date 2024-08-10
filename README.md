@@ -1,4 +1,5 @@
-# Portfolio View Renaldi dengan NextJs
+# Portfolio view with Nextjs
+## by Renaldi Fauzi Adnan
 
 Ini adalah proyek ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) yang di-bootstrap.
 
