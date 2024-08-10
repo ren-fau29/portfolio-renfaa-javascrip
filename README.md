@@ -35,7 +35,11 @@ Proyek ini menggunakan next/font untuk mengoptimalkan dan memuat Inter, Google F
 ## Dependencies
 ```bash
 - npm install -D tailwindcss
-- npx tailwindcss init```
+- npx tailwindcss init
+```
+```bash
+
+```
 
 ## Deploy on Vercel
 
