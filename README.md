@@ -1,21 +1,21 @@
 # Portfolio View Renaldi dengan NextJs
 
-This is a ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) project bootstrapped.
+Ini adalah proyek ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) yang di-bootstrap.
 
 
 ## Getting Started
 
-First, run the development server:
+Pertama, jalankan server pengembangan:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka http://localhost:3000 dengan browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Anda dapat mulai mengedit halaman dengan memodifikasi app/page.js. Halaman akan diperbarui secara otomatis saat Anda mengedit file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Proyek ini menggunakan next/font untuk mengoptimalkan dan memuat Inter, Google Font kustom, secara otomatis.
 
 ## Tech
 
