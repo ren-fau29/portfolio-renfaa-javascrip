@@ -1,7 +1,7 @@
 # Portfolio View Renaldi dengan NextJs
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped.
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+This is a ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) project bootstrapped.
+
 
 ## Getting Started
 
