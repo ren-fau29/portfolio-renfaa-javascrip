@@ -10,7 +10,7 @@ import {
   FaNodeJs,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // about data
 
@@ -147,7 +147,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
   TooltipContent,
-} from "@/components/ui/tooltip";
+} from "../../components/ui/tooltip";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
@@ -249,33 +249,53 @@ const Resume = () => {
                     {skills.description}
                   </p>
                 </div>
-                <ul className="grid grid-cols-2 grid-cols-3 md:grid-cols-4 xl:gap-[40px]">
+                <ul className="grid grid-cols-2 grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                   {skills.skillList.map((skill, index) => {
                     return (
                       <li key={index}>
                         <TooltipProvider>
                           <Tooltip>
-                            <TooltipTrigger>
-                              <div>{skill.icon}</div>
+                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                              <div className="text-6xl group-hover:text-accent transition-all duration-100">
+                                {skill.icon}
+                              </div>
                             </TooltipTrigger>
                             <TooltipContent>
-                              <p>{skill.name}</p>
+                              <p className="capitalize">{skill.name}</p>
                             </TooltipContent>
                           </Tooltip>
                         </TooltipProvider>
                       </li>
                     );
                   })}
-                  console.log("About Data:", about); console.log("Experience
-                  Data:", experience); console.log("Education Data:",
-                  education); console.log("Skills Data:", skills);
                 </ul>
               </div>
             </TabsContent>
 
             {/* about */}
-            <TabsContent value="about" className="w-full">
-              about
+            <TabsContent
+              value="about"
+              className="w-full text-center xl:text-left"
+            >
+              <div className="flex flex-col gap-[30px]">
+                <h3 className="text-4xl font-bold">{about.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  {about.description}
+                </p>
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                  {about.items.map((item, index) => {
+                    return (
+                      <li
+                        key={index}
+                        className="flex items-center justify-center xl:justify-start gap-4"
+                      >
+                        <span className="text-white/60 ">{item.fieldName}</span>
+                        <span className="text-accent ">{item.fieldValue}</span>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             </TabsContent>
           </div>
         </Tabs>
