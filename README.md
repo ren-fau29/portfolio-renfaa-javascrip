@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio view with Nextjs
+by Renaldi Fauzi Adnan
+
+Ini adalah proyek ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) yang di-bootstrap.
+
 
 ## Getting Started
 
-First, run the development server:
+Pertama, jalankan server pengembangan:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka http://localhost:3000 dengan browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Anda dapat mulai mengedit halaman dengan memodifikasi app/page.js. Halaman akan diperbarui secara otomatis saat Anda mengedit file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Proyek ini menggunakan next/font untuk mengoptimalkan dan memuat Inter, Google Font kustom, secara otomatis.
 
-## Learn More
+## Tech
 
-To learn more about Next.js, take a look at the following resources:
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+## Requirement
+- Visual Studio Code v1.92.0
+
+- NextJs v20.15.1
+
+- Tailwindcss v3.4.1
+
+## Dependencies
+```bash
+- npm install -D tailwindcss
+```
+```bash
+- npx shadcn-ui@latest init
+- shadcn-ui@latest add input button scroll-area select sheet tabs textarea tooltop
+```
+```bash
+- npm install framer-motion
+```
+```bash
+- npm install react-icons
+```
+```bash
+- npm install react-countup
+```
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Credit
+> RenFaa
