@@ -10,7 +10,7 @@ const service = [
     title: "Web Developer",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum nulla nostrum minus consequuntur recusandae, sequi odio fugit accusantium vero.",
-    href: "",
+    href: "https://renaldi-site-r-drive-and-discover.vercel.app/",
   },
   {
     num: "02",
@@ -24,11 +24,11 @@ const service = [
     title: "Mobile Developer",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum nulla nostrum minus consequuntur recusandae, sequi odio fugit accusantium vero.",
-    href: "",
+    href: "https://github.com/ren-fau29/AppEnsiklopediaAndNews",
   },
   {
     num: "04",
-    title: "MySQL",
+    title: "Figma",
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum nulla nostrum minus consequuntur recusandae, sequi odio fugit accusantium vero.",
     href: "",

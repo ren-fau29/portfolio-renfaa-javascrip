@@ -17,7 +17,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "I'm a passionate and dedicated full-stack developer with a strong background in HTML, CSS.",
+    "Saya adalah seorang Website Developer dengan latar belakang Informatika, memiliki keahlian dalam pengembangan aplikasi web dan mobile. Berpengalaman dalam membangun UI/UX interaktif menggunakan React, Next.js, dan Tailwind CSS, serta mengelola backend dengan Node.js. Selain itu, saya juga memiliki keterampilan dalam pengembangan aplikasi Android menggunakan Kotlin dan Firestore untuk manajemen data. Saya senang memecahkan masalah dan mengoptimalkan performa aplikasi agar lebih efisien. Dengan semangat untuk terus belajar dan berinovasi, saya selalu mencari tantangan baru dalam dunia teknologi.",
   items: [
     {
       fieldName: "Name",
@@ -40,6 +40,10 @@ const about = {
       fieldValue: "Available",
     },
     {
+      fieldName: "Open To Work From Office",
+      fieldValue: "Yes",
+    },
+    {
       fieldName: "Languages",
       fieldValue: "Indonesia, English",
     },
@@ -52,7 +56,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experiance",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus similique placeat molestias recusandae nulla pariatur facere harum error a dolorum doloribus provident, iure, iste eum vel tenetur sapiente iusto voluptate?",
+    "Website Developer dengan latar belakang Informatika dan pengalaman dalam pengembangan aplikasi Android menggunakan Kotlin. Terampil dalam membangun UI interaktif, mengintegrasikan API (seperti NewsAPI), serta menerapkan Dependency Injection dengan Hilt. Berpengalaman dalam pengelolaan database Firestore. Memiliki kemampuan problem-solving yang baik, terutama dalam debugging dan pengembangan fitur pencarian. Antusias dalam menciptakan solusi inovatif dan user-friendly dalam dunia teknologi.",
   items: [
     {
       company: "Freelance",
@@ -73,7 +77,7 @@ const education = {
   icon: "/assets/resume/badge.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus similique placeat molestias recusandae nulla pariatur facere harum error a dolorum doloribus provident, iure, iste eum vel tenetur sapiente iusto voluptate?",
+    "Saya merupakan lulusan Sarjana Informatika dengan pemahaman yang kuat dalam pengembangan perangkat lunak, struktur data, dan algoritma. Selama studi, saya mendalami pengembangan aplikasi mobile khususnya Android menggunakan Kotlin, serta memahami konsep arsitektur yang baik untuk aplikasi yang scalable. Saya juga memiliki pengalaman dalam pengelolaan database seperti Firestore dan integrasi API untuk berbagai kebutuhan aplikasi. Salah satu pencapaian saya adalah berhasil menyelesaikan proyek Drive And Discover, yang memberikan saya pengalaman dalam pengembangan aplikasi berbasis data dan mendapatkan sertifikat sebagai pengakuan atas keberhasilannya.",
   items: [
     {
       institution: "Universitas Teknologi Yogyakarta",
@@ -82,7 +86,7 @@ const education = {
     },
     {
       institution: "Smartpath Website Developer Minicourse Program",
-      degree: "Full Stack Web Application Project 100 poin",
+      degree: "Full Stack Web Application Project",
       duration: "2024",
     },
     {
@@ -103,7 +107,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus similique placeat molestias recusandae nulla pariatur facere harum error a dolorum doloribus provident, iure, iste eum vel tenetur sapiente iusto voluptate?",
+    "Saya memiliki keahlian dalam pengembangan web front-end dan back-end, dengan pengalaman dalam menggunakan HTML5, CSS3, dan JavaScript untuk membangun antarmuka yang responsif dan interaktif. Saya juga menguasai framework modern seperti React dan Next.js untuk membangun aplikasi web yang efisien dan performa tinggi. Untuk styling, saya terbiasa menggunakan Tailwind CSS, yang memungkinkan pengembangan UI lebih cepat dan konsisten. Di sisi back-end, saya memiliki pengalaman dengan Node.js untuk membangun server-side applications. Selain itu, saya juga familiar dengan Figma untuk merancang dan mengimplementasikan desain UI/UX yang intuitif dan menarik.",
   skillList: [
     {
       icon: <FaHtml5 />,
