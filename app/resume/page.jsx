@@ -249,7 +249,7 @@ const Resume = () => {
                     {skills.description}
                   </p>
                 </div>
-                <ul className="grid grid-cols-2 grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                   {skills.skillList.map((skill, index) => {
                     return (
                       <li key={index}>
