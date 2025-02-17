@@ -40,7 +40,7 @@ const about = {
       fieldValue: "Available",
     },
     {
-      fieldName: "Open To Work From Office",
+      fieldName: "Open for WFO",
       fieldValue: "Yes",
     },
     {
@@ -86,7 +86,7 @@ const education = {
     },
     {
       institution: "Smartpath Website Developer Minicourse Program",
-      degree: "Full Stack Web Application Project",
+      degree: "Full Stack Web Application Project React",
       duration: "2024",
     },
     {
