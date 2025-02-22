@@ -15,7 +15,7 @@ const Blog = () => {
           transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
         }}
       />
-      <div className="text-center text-xl font-semibold hover:text-accent">
+      <div className="text-center text-xl font-semibold hover:text-[#FF8C00]">
         COMING SOON
       </div>
     </section>

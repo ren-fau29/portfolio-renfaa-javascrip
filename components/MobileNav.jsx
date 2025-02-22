@@ -50,7 +50,7 @@ const MobileNav = () => {
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/" onClick={closeMenu}>
             <h1 className="text-4xl font-semibold">
-              RenFaa <span className="text-[#FF8C00]">.</span>
+              RenFaa<span className="text-[#FF8C00]">.</span>
             </h1>
           </Link>
         </div>
