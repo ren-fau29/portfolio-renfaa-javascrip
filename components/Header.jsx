@@ -12,7 +12,7 @@ const Header = () => {
         {/*Logo*/}
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            RenFaa<span className="text-accent">.</span>
+            RenFaa<span className="text-[#FF8C00]">.</span>
           </h1>
         </Link>
 

@@ -16,7 +16,7 @@ const Home = () => {
             <span className="text-xl">Software Developer</span>
             <h1 className="h1">
               Hello Saya, <br />{" "}
-              <span className="text-accent">Renaldi Fauzi.A</span>
+              <span className="text-[#FFA500]">Renaldi Fauzi.A</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               Saya ahli dalam menciptakan pengalaman digital yang elegan dan
@@ -37,14 +37,14 @@ const Home = () => {
                   containerStyle="flex gap-6"
                   iconStyle="w-9 h-9
                   border
-                  border-accent
+                  border-[#FF8C00]
                   rounded-full
                   flex
                   justify-center
                   items-center
-                  text-accent
+                  text-[#FF8C00]
                   text-base
-                  hover:bg-accent
+                  hover:bg-[#FF8C00]
                   hover:text-primary
                   hover:transition-all
                   duration-500"
