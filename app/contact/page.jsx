@@ -29,7 +29,7 @@ const info = [
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "Sleman, Yogyakarta",
+    description: "Dusun Timur, Barito Timur",
   },
 ];
 
